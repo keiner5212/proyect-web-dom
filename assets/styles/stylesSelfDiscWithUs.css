@@ -1,0 +1,216 @@
+header {
+    background-color: #312f78;
+    grid-column: 1/3;
+    display: grid;
+    height: 90px;
+    padding: 7px;
+    grid-template-columns: 75% 1fr;
+    gap: 5px;
+    font-size: 18px;
+}
+
+aside img{
+    margin-top: 3px;
+    border-radius: 10px;
+}
+
+.iconsUpdates {
+    height: 50px;
+}
+
+.titleStyle {
+    color: white;
+    display: inline;
+    margin: 15px;
+    font-weight: bold;
+    width: 170px;
+}
+
+.aligning-icons-horizontally,.header-list-elements-animation{
+    display: flex;
+}
+
+body li {
+    list-style: none;
+    margin: 0px 15px;
+}
+
+.header-list-elements-animation li:hover a{
+    color: #15125e;
+}
+
+.header-list-elements-animation li:hover{
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.311);
+    animation: shadow-drop-center 0.3s linear forwards;
+}
+
+.header-icons-right-side .img-round-shape:hover{
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.311);
+    animation: shadow-drop-center 0.3s linear forwards;
+}
+
+.header-icons-right-side{
+    display: flex;
+    justify-content: right;
+    padding-right: 50px;
+    align-items: center;
+}
+
+.aligning-icons-horizontally li{
+    margin-left: 25px;
+}
+
+.img-round-shape{
+    height: 30px;
+    width: 30px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.li-container{
+    padding: 2px 5px;
+}
+
+body a {
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 10% 90%;
+    font-family: Helvetica, "Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+aside ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+aside {
+    grid-column: 1/1;
+    background-color: #4c48b4;
+}
+
+main {
+    grid-column: 2/3;
+    background-color: #b6ccb5;
+    background-image: url("../images/background-main-selfDiscoveryWithUs.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main button{
+    position: absolute;
+    top: 65%;
+    left: 610px;
+    height: 60px;
+    border-radius: 20px;
+    background-color: black;
+    padding: 0px 10px;
+    font-weight: bold;
+    color: white;
+}
+
+#p{
+    font-weight: 700;
+    color: rgb(139, 48, 48);
+}
+
+.hide{
+    display: none;
+}
+
+.meme-caption-form{
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+select{
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px;
+    max-width: 400px;
+}
+
+.submit-meme-caption-form{
+    height: 30px;
+    border-radius: 20px;
+    padding: 0px 10px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.towel-dog-image{
+    border-radius: 10px;
+}
+
+footer{
+    grid-column: 1/3;
+    display: grid;
+    text-align: center;
+    grid-template-rows: 1fr 1fr;
+    grid-row: 3;
+    background-color: #312f78;
+}
+
+
+footer p{
+    margin: 0px 100px;
+    margin-bottom: 10px;
+}
+
+
+.about-me{
+    background-color: #322f78df;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 20px;
+    position: absolute;
+    top: 20%;
+    z-index: 100;
+    left: 50%;
+}
+
+.about-me img{
+    border-radius: 20px;
+}
+
+.aligning-header-elements{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes shadow-drop-center {
+    0% {
+        box-shadow: 0 0 0 0 transparent;
+        transform: scale(1);
+    }
+
+    100% {
+        box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.311);
+        transform: scale(1.1);
+    }
+}
