@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One:ital@1&family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@1,300&display=swap');
+
 header {
     background-color: #312f78;
     grid-column: 1/3;
@@ -24,8 +28,16 @@ aside img{
     display: inline;
     margin: 15px;
     font-weight: bold;
-    width: 170px;
+    width: 160px;
+    font-family: "Fjalla One";
+    transition-property: font-size;
+    transition-duration: 1s;
+    transition-delay: 0s;
 }
+
+.titleStyle:hover {
+    font-size: 20px;
+} 
 
 .aligning-icons-horizontally,.header-list-elements-animation{
     display: flex;
@@ -107,6 +119,7 @@ main {
     grid-column: 2/3;
     background-color: #b6ccb5;
     position: relative;
+    font-family: "Righteous";
 }
 
 #video-container iframe{
@@ -143,6 +156,7 @@ footer{
 footer p{
     margin: 0px 100px;
     margin-bottom: 10px;
+    font-family: "Sarabun";
 }
 
 .aligning-header-elements{

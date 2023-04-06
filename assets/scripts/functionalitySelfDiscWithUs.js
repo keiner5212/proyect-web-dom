@@ -76,14 +76,22 @@ form_meme_caption.addEventListener("submit", (e) => {
 	} else {
 		count = -5;
 		let main = document.querySelector("main");
+		let rand = Math.floor(Math.random() * 29);
+		if(!localStorage.getItem(rand)){
+			localStorage.setItem(rand,"0")
+		}
 		main.innerHTML =
 			'<div class="meme-caption-form">' +
 			"<p>Your result is:</p>" +
 			'<img src="' +
 			"assets/images/PersonalityResultsImages/PersonalityPic_" +
-			Math.floor(Math.random() * 29) +
+			rand +
 			".png" +
 			'" alt="x">' +
+			"<p>You and " +
+			localStorage.getItem(rand) +
+			" others got that result</p>" +
 			"</div>";
+		localStorage.setItem(rand,JSON.stringify(parseInt(localStorage.getItem(rand))+1))
 	}
 });

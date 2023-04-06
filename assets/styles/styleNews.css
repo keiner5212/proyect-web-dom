@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One:ital@1&family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@1,300&display=swap');
+
 header {
     background-color: #312f78;
     grid-column: 1/3;
@@ -9,7 +13,7 @@ header {
     font-size: 18px;
 }
 
-aside img{
+aside img {
     margin-top: 3px;
     border-radius: 10px;
 }
@@ -23,10 +27,19 @@ aside img{
     display: inline;
     margin: 15px;
     font-weight: bold;
-    width: 170px;
+    width: 160px;
+    font-family: "Fjalla One";
+    transition-property: font-size;
+    transition-duration: 1s;
+    transition-delay: 0s;
 }
 
-.aligning-icons-horizontally,.header-list-elements-animation{
+.titleStyle:hover {
+    font-size: 20px;
+}
+
+.aligning-icons-horizontally,
+.header-list-elements-animation {
     display: flex;
 }
 
@@ -35,41 +48,41 @@ body li {
     margin: 0px 15px;
 }
 
-.header-list-elements-animation li:hover a{
+.header-list-elements-animation li:hover a {
     color: #15125e;
 }
 
-.header-list-elements-animation li:hover{
+.header-list-elements-animation li:hover {
     border-radius: 5px;
     background-color: rgba(255, 255, 255, 0.311);
     animation: shadow-drop-center 0.3s linear forwards;
 }
 
-.header-icons-right-side .img-round-shape:hover{
+.header-icons-right-side .img-round-shape:hover {
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.311);
     animation: shadow-drop-center 0.3s linear forwards;
 }
 
-.header-icons-right-side{
+.header-icons-right-side {
     display: flex;
     justify-content: right;
     padding-right: 50px;
     align-items: center;
 }
 
-.aligning-icons-horizontally li{
+.aligning-icons-horizontally li {
     margin-left: 25px;
 }
 
-.img-round-shape{
+.img-round-shape {
     height: 30px;
     width: 30px;
     margin: 0px;
     padding: 0px;
 }
 
-.li-container{
+.li-container {
     padding: 2px 5px;
 }
 
@@ -89,7 +102,7 @@ body {
     font-size: 14px;
 }
 
-aside ul{
+aside ul {
     margin: 0px;
     padding: 0px;
 }
@@ -104,15 +117,18 @@ main {
     background-color: #b6ccb5;
     position: relative;
     display: grid;
-    gap: 10px;
     grid-template-columns: 26% 74%;
 }
 
-.hide{
+.news a{
+    color: #312f78;
+}
+
+.hide {
     display: none;
 }
 
-.meme-caption-form{
+.meme-caption-form {
     background-color: white;
     padding: 20px;
     border-radius: 20px;
@@ -122,21 +138,21 @@ main {
     justify-content: center;
 }
 
-.funfacts-jokes{
+.funfacts-jokes {
     margin-top: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.news{
+.news {
     margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
 }
 
-.funfacts-jokes div{
+.funfacts-jokes div {
     padding: 30px;
     min-height: 100px;
     width: 200px;
@@ -145,7 +161,7 @@ main {
     border-radius: 20px;
 }
 
-.news div{
+.news div {
     padding: 30px;
     min-height: 100px;
     min-width: 200px;
@@ -155,17 +171,18 @@ main {
     border-radius: 20px;
 }
 
-h3{
+h3 {
     font-size: 20px;
     margin: 0px;
+    font-family: "Fjalla One";
 }
 
 
-.towel-dog-image{
+.towel-dog-image {
     border-radius: 10px;
 }
 
-footer{
+footer {
     grid-column: 1/3;
     display: grid;
     text-align: center;
@@ -175,7 +192,7 @@ footer{
 }
 
 
-.about-me{
+.about-me {
     background-color: #322f78df;
     width: 300px;
     display: flex;
@@ -190,16 +207,17 @@ footer{
     left: 50%;
 }
 
-.about-me img{
+.about-me img {
     border-radius: 20px;
 }
 
-footer p{
+footer p {
     margin: 0px 100px;
     margin-bottom: 10px;
+    font-family: "Sarabun";
 }
 
-.aligning-header-elements{
+.aligning-header-elements {
     margin-top: 10px;
     display: flex;
     align-items: center;
