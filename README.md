@@ -1,40 +1,34 @@
-# portfolio proyect
-en este proyecto se abordaron los distintos requisitos de la rublica asignada con el fin de obtener la maxima nota posible 
+<!-- @format -->
 
-acontinuacion la descripcion de las metas:
-## Have a deployed front-end application.
-podremos encontrar la aplicacion desplegada en el siguiente link: [link a la pagina]()
+# Portfolio Project
 
-## Allow for user interaction through button clicks and form inputs.
-naturalmente, hay unputs, selectors, botones y demas que los usuarios pueden usar para cambiar entre pestañas e interactuar con la web
+## Overview
 
-## Make requests to an external API.
-en este proyecto se hizo uso de diferentes apis:
+This project is a web application that makes use of several APIs to provide the user with a variety of information. The app is built using JavaScript, HTML, and CSS.
 
-- [News](https://newsapi.org/)
-- [Giphy](https://api.giphy.com/)
-- [Chuck norris jokes](https://api.chucknorris.io/)
-- [random-stuff-api](https://rapidapi.com/pgamerxdev/api/random-stuff-api)
-- [uselessfacts](https://uselessfacts.jsph.pl/)
-- [dogapi](https://dogapi.dog/)
-- [imgflip](https://imgflip.com/api)
+## Features
 
-## Add a button or icon to the error that displays when a form is incorrectly filled out. When this button or icon is clicked, the error is removed from the page.
-cumplimos este requerimiento en la aplicacion en el apartado de self Discovery With Us, cuando no se selecciona un caption para la imagen meme, se lanza un error
+-   API integration: The app makes use of several APIs to provide the user with a variety of information.
 
-## Use [CSS transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions) to add effects to your page.
-se hizo uso de las transiciones con keyframes y ademas con el titulo de  la pagina con el atributo "transition" (.titleStyle)
+## APIs Used
 
-## Incorporate fonts from [Google Fonts](https://fonts.google.com/) onto your page to improve the styling.
-se usaron multiples fuentes de google fonts en el proyecto, las mismas aparecen en cada archivo de css en la parte superior
+-   [News](https://newsapi.org/): Provides the user with the latest news.
+-   [Giphy](https://api.giphy.com/): Provides the user with a variety of GIFs.
+-   [Chuck norris jokes](https://api.chucknorris.io/): Provides the user with Chuck Norris jokes.
+-   [random-stuff-api](https://rapidapi.com/pgamerxdev/api/random-stuff-api): Provides the user with random information.
+-   [uselessfacts](https://uselessfacts.jsph.pl/): Provides the user with useless facts.
+-   [dogapi](https://dogapi.dog/): Provides the user with pictures of dogs.
+-   [imgflip](https://imgflip.com/api): Provides the user with memes.
 
-## Store some information locally through [localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage). This information should affect what is shown on the page when the page is reloaded.
-usamos esta caracteristica para guardar el numero de personas que obtienen un mismo resultado en el juego de personalidad mostrando mensajes como "tu y 2 personas mas han obtenido ese resultado"
+## Technologies Used
 
-## Use a CSS framework such as [Simple.css](https://simplecss.org/) or [Bootstrap](https://getbootstrap.com/).
-en este caso hicimos todo el css a mano
+-   JavaScript: Used as the frontend language for the app.
+-   HTML: Used as the markup language for creating web pages.
+-   CSS: Used for styling web pages.
 
-## Split your CSS or JavaScript into multiple files, with each file relating to a specific functionality. For example, create a new file called `api.js` that includes the JavaScript code that makes requests to your external API.
-separamos los archivos de JavaScript y CSS para cada vista de la pagina
+## Getting Started
 
+To get started with using the app, follow these steps:
 
+1. Clone the repository to your local machine.
+2. Open `index.html` in your web browser.
